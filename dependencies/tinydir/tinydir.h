@@ -33,11 +33,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 extern "C" {
 #endif
 
-#if ((defined _UNICODE) && !(defined UNICODE))
+#if ((defined _UNICODE) & !(defined UNICODE))
 #define UNICODE
 #endif
 
-#if ((defined UNICODE) && !(defined _UNICODE))
+#if ((defined UNICODE) & !(defined _UNICODE))
 #define _UNICODE
 #endif
 
@@ -84,28 +84,14 @@ extern "C" {
 #define _tinydir_strncmp strncmp
 #endif
 
-#if (defined _MSC_VER || defined __MINGW32__)
-#include <windows.h>
-#define _TINYDIR_PATH_MAX MAX_PATH
-#elif defined  __linux__
-#include <linux/limits.h>
-#define _TINYDIR_PATH_MAX PATH_MAX
-#else
 #define _TINYDIR_PATH_MAX 4096
-#endif
-
 #ifdef _MSC_VER
 /* extra chars for the "\\*" mask */
 # define _TINYDIR_PATH_EXTRA 2
 #else
 # define _TINYDIR_PATH_EXTRA 0
 #endif
-
 #define _TINYDIR_FILENAME_MAX 256
-
-#if (defined _MSC_VER || defined __MINGW32__)
-#define _TINYDIR_DRIVE_MAX 3
-#endif
 
 #ifdef _MSC_VER
 # define _TINYDIR_FUNC static __inline
@@ -115,15 +101,12 @@ extern "C" {
 # define _TINYDIR_FUNC static inline
 #endif
 
-/* readdir_r usage; define TINYDIR_USE_READDIR_R to use it (if supported) */
-#ifdef TINYDIR_USE_READDIR_R
-
 /* readdir_r is a POSIX-only function, and may not be available under various
  * environments/settings, e.g. MinGW. Use readdir fallback */
-#if _POSIX_C_SOURCE >= 1 || _XOPEN_SOURCE || _BSD_SOURCE || _SVID_SOURCE ||\
-	_POSIX_SOURCE
-# define _TINYDIR_HAS_READDIR_R
-#endif
+//#if _POSIX_C_SOURCE >= 1 || _XOPEN_SOURCE || _BSD_SOURCE || _SVID_SOURCE ||\
+//	_POSIX_SOURCE
+//# define _TINYDIR_HAS_READDIR_R
+//#endif
 #if _POSIX_C_SOURCE >= 200112L
 # define _TINYDIR_HAS_FPATHCONF
 # include <unistd.h>
@@ -140,8 +123,6 @@ extern "C" {
 #if defined __MINGW32__ || !defined _TINYDIR_HAS_READDIR_R ||\
 	!(defined _TINYDIR_USE_FPATHCONF || defined NAME_MAX)
 # define _TINYDIR_USE_READDIR
-#endif
-
 #endif
 
 /* MINGW32 has two versions of dirent, ASCII and UNICODE*/
@@ -228,8 +209,6 @@ int tinydir_readfile_n(const tinydir_dir *dir, tinydir_file *file, size_t i);
 _TINYDIR_FUNC
 int tinydir_open_subdir_n(tinydir_dir *dir, size_t i);
 
-_TINYDIR_FUNC
-int tinydir_file_open(tinydir_file *file, const _tinydir_char_t *path);
 _TINYDIR_FUNC
 void _tinydir_get_ext(tinydir_file *file);
 _TINYDIR_FUNC
@@ -625,7 +604,7 @@ int tinydir_file_open(tinydir_file *file, const _tinydir_char_t *path)
 	_tinydir_char_t *dir_name;
 	_tinydir_char_t *base_name;
 #if (defined _MSC_VER || defined __MINGW32__)
-	_tinydir_char_t drive_buf[_TINYDIR_DRIVE_MAX];
+	_tinydir_char_t drive_buf[_TINYDIR_PATH_MAX];
 	_tinydir_char_t ext_buf[_TINYDIR_FILENAME_MAX];
 #endif
 
@@ -645,10 +624,10 @@ int tinydir_file_open(tinydir_file *file, const _tinydir_char_t *path)
 #if ((defined _MSC_VER) && (_MSC_VER >= 1400))
 		_tsplitpath_s(
 			path,
-			drive_buf, _TINYDIR_DRIVE_MAX,
-			dir_name_buf, _TINYDIR_FILENAME_MAX,
-			file_name_buf, _TINYDIR_FILENAME_MAX,
-			ext_buf, _TINYDIR_FILENAME_MAX);
+			drive_buf, sizeof drive_buf,
+			dir_name_buf, sizeof dir_name_buf,
+			file_name_buf, sizeof file_name_buf,
+			ext_buf, sizeof ext_buf);
 #else
 		_tsplitpath(
 			path,
@@ -657,25 +636,10 @@ int tinydir_file_open(tinydir_file *file, const _tinydir_char_t *path)
 			file_name_buf,
 			ext_buf);
 #endif
-
-/* _splitpath_s not work fine with only filename and widechar support */
-#ifdef _UNICODE
-		if (drive_buf[0] == L'\xFEFE')
-			drive_buf[0] = '\0';
-		if (dir_name_buf[0] == L'\xFEFE')
-			dir_name_buf[0] = '\0';
-#endif
-
 	if (errno)
 	{
 		errno = EINVAL;
 		return -1;
-	}
-	/* Emulate the behavior of dirname by returning "." for dir name if it's
-	empty */
-	if (drive_buf[0] == '\0' && dir_name_buf[0] == '\0')
-	{
-		_tinydir_strcpy(dir_name_buf, TINYDIR_STRING("."));
 	}
 	/* Concatenate the drive letter and dir name to form full dir name */
 	_tinydir_strcat(drive_buf, dir_name_buf);

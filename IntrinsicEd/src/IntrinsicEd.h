@@ -52,9 +52,10 @@ public:
   static IntrinsicEdManagerWindowPostEffect* _managerWindowPostEffect;
   static IntrinsicEdViewport* _viewport;
 
-  static _INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) _categoryToIconMapping;
-  static _INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) _componentToIconMapping;
-
+  //static _INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) _categoryToIconMapping;
+  //static _INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) _componentToIconMapping;
+    static spp::sparse_hash_map<std::string, std::string> _categoryToIconMapping;
+    static spp::sparse_hash_map<std::string, std::string> _componentToIconMapping;
 public slots:
   void onSaveEditorSettings();
   void onLoadEditorSettings();

@@ -1,0 +1,15 @@
+[  1%] Automatic moc, uic and rcc for target IntrinsicAssetManagement
+[  1%] Built target IntrinsicAssetManagement_automoc
+[  6%] Built target IntrinsicAssetManagement
+[  7%] Automatic moc, uic and rcc for target IntrinsicRendererVulkan
+[  7%] Built target IntrinsicRendererVulkan_automoc
+[ 41%] Built target IntrinsicRendererVulkan
+[ 41%] Automatic moc, uic and rcc for target IntrinsicEd
+[ 41%] Built target IntrinsicEd_automoc
+[ 42%] Automatic moc, uic and rcc for target IntrinsicCore
+[ 42%] Built target IntrinsicCore_automoc
+[ 73%] Built target IntrinsicCore
+[ 73%] Building CXX object CMakeFiles/IntrinsicEd.dir/IntrinsicEd/src/IntrinsicEd.cpp.o
+CMakeFiles/IntrinsicEd.dir/build.make:110: recipe for target 'CMakeFiles/IntrinsicEd.dir/IntrinsicEd/src/IntrinsicEd.cpp.o' failed
+CMakeFiles/Makefile2:70: recipe for target 'CMakeFiles/IntrinsicEd.dir/all' failed
+Makefile:83: recipe for target 'all' failed

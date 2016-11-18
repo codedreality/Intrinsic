@@ -4,8 +4,9 @@ project(Intrinsic)
 
 set(BUILD_STANDALONE ON)
 # TODO: Microprofile and IntrinsicEd are currently disabled for Linux builds
+set(BUILD_INTRINSICED ON)
 if(WIN32)
-  set(BUILD_INTRINSICED ON)
+  #set(BUILD_INTRINSICED ON)
   set(USE_MICROPROFILE ON)
 endif()
 
@@ -124,11 +125,13 @@ if(BUILD_INTRINSICED)
   include_directories(${Qt5Widgets_INCLUDES})
   add_definitions(${Qt5Widgets_DEFINITIONS})
 
-  foreach (srcFile ${MOC_SOURCES})
-    set_source_files_properties (${srcFile} 
-    PROPERTIES COMPILE_FLAGS "/Yustdafx_editor.h /FIstdafx_editor.h"
-  )
-  endforeach()
+  if(WIN32)
+    foreach (srcFile ${MOC_SOURCES})
+      set_source_files_properties (${srcFile}
+      PROPERTIES COMPILE_FLAGS "/Yustdafx_editor.h /FIstdafx_editor.h"
+    )
+    endforeach()
+  endif()
 endif()
 
 # Executables

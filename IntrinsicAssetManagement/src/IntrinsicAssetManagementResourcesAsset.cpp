@@ -13,6 +13,7 @@
 // limitations under the License.
 
 // Precompiled header file
+#include "fbxsdk.h"
 #include "stdafx_assets.h"
 #include "stdafx.h"
 #include "stdafx_vulkan.h"

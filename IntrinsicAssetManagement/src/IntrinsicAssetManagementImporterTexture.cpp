@@ -13,6 +13,7 @@
 // limitations under the License.
 
 // Precompiled header file
+#include "fbxsdk.h"
 #include "stdafx_assets.h"
 #include "stdafx.h"
 #include "stdafx_vulkan.h"
@@ -161,8 +162,8 @@ void ImporterTexture::importHdrCubemapFromFile(const _INTR_STRING& p_FilePath)
 {
   _INTR_STRING fileName, extension;
   StringUtil::extractFileNameAndExtension(p_FilePath, fileName, extension);
-
-  copyFile(p_FilePath, mediaPath + "/" + fileName + ".dds");
+  _INTR_STRING fullFileName = mediaPath + "/" + fileName + ".dds";
+  copyFile(p_FilePath, fullFileName);
   ImageRef imgRef =
       createTexture(fileName, Renderer::Vulkan::Format::kBC6UFloat);
   updateDrawCalls(imgRef);

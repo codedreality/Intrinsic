@@ -19,7 +19,7 @@
 
 // FBX
 #undef snprintf
-#include "fbxsdk.h"
+//#include "fbxsdk.h"
 
 // Core related includes
 #include "stdafx.h"

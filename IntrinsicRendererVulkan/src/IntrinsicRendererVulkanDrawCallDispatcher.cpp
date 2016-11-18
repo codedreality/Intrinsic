@@ -13,6 +13,7 @@
 // limitations under the License.
 
 // Precompiled header file
+#undef PropertyNotify
 #include "stdafx_vulkan.h"
 #include "stdafx.h"
 

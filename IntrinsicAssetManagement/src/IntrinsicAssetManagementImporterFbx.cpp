@@ -14,6 +14,7 @@
 
 // Precompiled header file
 #define FBXSDK_NAMESPACE_USING 1
+#include "fbxsdk.h"
 #include "stdafx_assets.h"
 #include "stdafx.h"
 #include "stdafx_vulkan.h"

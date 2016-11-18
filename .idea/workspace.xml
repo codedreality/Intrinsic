@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Intrinsic" targetName="IntrinsicEd" />
+      <config projectName="Intrinsic" targetName="IntrinsicCore" />
+      <config projectName="Intrinsic" targetName="IntrinsicEd_automoc" />
+      <config projectName="Intrinsic" targetName="IntrinsicRendererVulkan" />
+      <config projectName="Intrinsic" targetName="Intrinsic" />
+      <config projectName="Intrinsic" targetName="IntrinsicRendererVulkan_automoc" />
+      <config projectName="Intrinsic" targetName="Intrinsic_automoc" />
+      <config projectName="Intrinsic" targetName="IntrinsicCore_automoc" />
+      <config projectName="Intrinsic" targetName="IntrinsicAssetManagement_automoc" />
+      <config projectName="Intrinsic" targetName="IntrinsicAssetManagement" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs>
+        <env name="VK_LAYER_PATH" value="/home/abehr/Programming/sdk/VulkanSDK/1.0.30.0/x86_64/etc/explicit_layer.d" />
+        <env name="INTR_QTDIR" value="/home/abehr/Programming/sdk/Qt/5.7/gcc_64" />
+        <env name="FBX_HOME" value="/home/abehr/Programming/sdk/fbx/20151" />
+        <env name="VK_SDK_PATH" value="/home/abehr/Programming/sdk/VulkanSDK/1.0.30.0/x86_64" />
+        <env name="PHYSX_HOME" value="/home/abehr/Programming/sdk/PhysX-3.3/PhysXSDK" />
+      </envs>
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be614ef3-f8ea-4db9-94a3-7739a9b1baff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.ui" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doxyfile" afterPath="$PROJECT_DIR$/Doxyfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp" afterPath="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp" afterPath="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp" afterPath="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicAssetManagement/src/stdafx_assets.h" afterPath="$PROJECT_DIR$/IntrinsicAssetManagement/src/stdafx_assets.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCorePrerequisites.h" afterPath="$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCorePrerequisites.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicCore/src/stdafx.h" afterPath="$PROJECT_DIR$/IntrinsicCore/src/stdafx.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.h" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowAsset.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowAsset.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowBase.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowBase.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowGpuProgram.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowGpuProgram.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowImage.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowImage.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMaterial.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMaterial.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMesh.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMesh.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationBase.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationBase.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationSimple.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationSimple.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorEnum.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorEnum.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorFloat.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorFloat.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorRotation.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorRotation.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorString.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorString.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec2.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec3.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec3.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec4.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec4.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyView.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyView.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicEd/src/main.cpp" afterPath="$PROJECT_DIR$/IntrinsicEd/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp" afterPath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp" afterPath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanMaterialBuffer.cpp" afterPath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanMaterialBuffer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/stdafx_vulkan.h" afterPath="$PROJECT_DIR$/IntrinsicRendererVulkan/src/stdafx_vulkan.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake/FindFBX.cmake" afterPath="$PROJECT_DIR$/cmake/FindFBX.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependencies/tinydir/tinydir.h" afterPath="$PROJECT_DIR$/dependencies/tinydir/tinydir.h" />
+    </list>
+    <ignored path="Intrinsic.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Intrinsic" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IntrinsicEd.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+              <folding>
+                <element signature="e#101#135#0" expanded="true" />
+                <element signature="e#1528#2370#0" expanded="true" />
+                <element signature="e#3071#3218#0" expanded="true" />
+                <element signature="e#3597#3746#0" expanded="true" />
+                <marker date="1479466025975" expanded="true" signature="25235:31980" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrinsicEdPropertyView.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyView.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#620#646#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrinsicEdNodeViewTreeWidget.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeViewTreeWidget.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1515">
+              <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+              <folding>
+                <element signature="e#620#646#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stdafx_editor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/stdafx_editor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#756#788#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stdafx.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/stdafx.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sparsepp.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dependencies/sparsepp/sparsepp.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="932" column="0" selection-start-line="932" selection-start-column="0" selection-end-line="932" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrinsicStringUtil.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicStringUtil.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-698">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrinsicEd.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrinsicCorePrerequisites.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCorePrerequisites.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntrinsicCoreStlAllocator.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCoreStlAllocator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cmake/FindFBX.cmake" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowBase.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/main.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowGpuProgram.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMaterial.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowImage.cpp" />
+        <option value="$PROJECT_DIR$/dependencies/tinydir/tinydir.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowAsset.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMesh.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationBase.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorEnum.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationSimple.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec2.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorString.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorRotation.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec4.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec3.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyView.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorFloat.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicAssetManagement/src/stdafx_assets.h" />
+        <option value="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementHelperFbx.h" />
+        <option value="$PROJECT_DIR$/IntrinsicCore/src/stdafx.h" />
+        <option value="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanMaterialBuffer.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicRendererVulkan/src/stdafx_vulkan.h" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.cpp" />
+        <option value="$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.h" />
+        <option value="$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCorePrerequisites.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1680" />
+    <option name="y" value="24" />
+    <option name="width" value="1680" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntrinsicRendererVulkan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntrinsicEd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntrinsicEd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntrinsicCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntrinsicAssetManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinydir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intrinsic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="fbxsdk&#9;null&#9;null&#10;fbx&#9;FILE&#9;file:///home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementHelperFbx.h" />
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="Intrinsic" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="Intrinsic" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Intrinsic" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Intrinsic" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Intrinsic" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Intrinsic" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Intrinsic" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Intrinsic" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Intrinsic" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Intrinsic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="Intrinsic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Intrinsic" RUN_TARGET_NAME="Intrinsic">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicCore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicCore" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicRendererVulkan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicRendererVulkan" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Intrinsic_automoc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="Intrinsic_automoc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicAssetManagement" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicAssetManagement" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicAssetManagement_automoc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicAssetManagement_automoc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicCore_automoc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicCore_automoc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicEd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicEd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Intrinsic" RUN_TARGET_NAME="IntrinsicEd">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicEd_automoc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicEd_automoc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntrinsicRendererVulkan_automoc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Intrinsic" TARGET_NAME="IntrinsicRendererVulkan_automoc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Intrinsic" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IntrinsicCore" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IntrinsicRendererVulkan" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Intrinsic_automoc" />
+      <item index="5" class="java.lang.String" itemvalue="Application.IntrinsicAssetManagement" />
+      <item index="6" class="java.lang.String" itemvalue="Application.IntrinsicAssetManagement_automoc" />
+      <item index="7" class="java.lang.String" itemvalue="Application.IntrinsicCore_automoc" />
+      <item index="8" class="java.lang.String" itemvalue="Application.IntrinsicEd" />
+      <item index="9" class="java.lang.String" itemvalue="Application.IntrinsicEd_automoc" />
+      <item index="10" class="java.lang.String" itemvalue="Application.IntrinsicRendererVulkan_automoc" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be614ef3-f8ea-4db9-94a3-7739a9b1baff" name="Default" comment="" />
+      <created>1479290894987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1479290894987</updated>
+      <workItem from="1479290897170" duration="109000" />
+      <workItem from="1479374972302" duration="1162000" />
+      <workItem from="1479376139971" duration="227000" />
+      <workItem from="1479376372618" duration="277000" />
+      <workItem from="1479376654827" duration="77000" />
+      <workItem from="1479376737687" duration="5907000" />
+      <workItem from="1479455381077" duration="9238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16997000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="24" width="1680" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/IntrinsicCore/src/stdafx.h</url>
+          <line>40</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicRendererVulkan_automoc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicEd_automoc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorRotation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowImage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCoreDodResources.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies/tinydir/tinydir.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorEnum.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake/FindFBX.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowAsset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowAsset.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMesh.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationBase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorEnum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNotificationSimple.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorRotation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdViewport.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#620#646#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorFloat.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/stdafx.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <marker date="1479459534689" expanded="true" signature="768:17132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1479459585550" expanded="true" signature="837:4704" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1479459660907" expanded="true" signature="735:4307" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicAssetManagement/src/stdafx.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicAssetManagement/src/stdafx_assets.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#784#830#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementHelperFbx.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/stdafx.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanMaterialBuffer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#642#668#0" expanded="false" />
+            <marker date="1479460854487" expanded="true" signature="710:2409" ph="{...}" />
+            <marker date="1479460854487" expanded="true" signature="731:2407" ph="{...}" />
+            <marker date="1479460854487" expanded="true" signature="750:2405" ph="{...}" />
+            <marker date="1479460854487" expanded="true" signature="977:2403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#642#668#0" expanded="false" />
+            <marker date="1479460870087" expanded="true" signature="710:7057" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#642#668#0" expanded="false" />
+            <marker date="1479460881035" expanded="true" signature="710:4618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicRendererVulkan/src/stdafx.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicRendererVulkan/src/stdafx_vulkan.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#1034#1082#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/6/bits/functional_hash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies/sparsepp/sparsepp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="932" column="0" selection-start-line="932" selection-start-column="0" selection-end-line="932" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/stdafx.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/stdafx_editor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#756#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdPropertyView.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#620#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="e#101#135#0" expanded="true" />
+            <element signature="e#1528#2370#0" expanded="true" />
+            <element signature="e#3071#3218#0" expanded="true" />
+            <element signature="e#3597#3746#0" expanded="true" />
+            <marker date="1479466025975" expanded="true" signature="25235:31980" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicEd/src/IntrinsicEdNodeViewTreeWidget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <element signature="e#620#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicStringUtil.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-698">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCorePrerequisites.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IntrinsicCore/src/IntrinsicCoreStlAllocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

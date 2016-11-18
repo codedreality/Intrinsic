@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Precompiled header file
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "stdafx_editor.h"
 
 IntrinsicEdManagerWindowGpuProgram::IntrinsicEdManagerWindowGpuProgram(

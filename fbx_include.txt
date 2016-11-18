@@ -1,0 +1,5 @@
+/IntrinsicAssetManagementImporterFbx.cpp.o: /home/abehr/Programming/sdk/fbx/20160/include/fbxsdk.h
+/IntrinsicAssetManagementImporterTexture.cpp.o: /home/abehr/Programming/sdk/fbx/20160/include/fbxsdk.h
+/IntrinsicAssetManagementResourcesAsset.cpp.o: /home/abehr/Programming/sdk/fbx/20160/include/fbxsdk.h
+IntrinsicAssetManagement/src/stdafx_assets.h:#include "fbxsdk.h"
+

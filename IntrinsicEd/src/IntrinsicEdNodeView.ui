@@ -121,7 +121,7 @@
   <customwidget>
    <class>IntrinsicEdNodeViewTreeWidget</class>
    <extends>QWidget</extends>
-   <header>intrinsicednodeviewtreewidget.h</header>
+   <header>IntrinsicEdNodeViewTreeWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

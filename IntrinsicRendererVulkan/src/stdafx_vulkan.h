@@ -24,7 +24,7 @@
 #undef min
 #undef Bool
 #undef Success
-
+#undef PropertyNotify
 // GLSLang related includes
 #include "glslang/SPIRV/GlslangToSpv.h"
 

@@ -1,12 +1,13 @@
-->
 // Copyright (c) 2016 Benjamin Glatzel
 // Author: Benjamin Glatzel
 // <-
 
 // Precompiled header file
+#include <QtGui/qwindowdefs_win.h>
 #include "stdafx_editor.h"
-#include "stdafx.h"
 #include "stdafx_assets.h"
+//#include "stdafx.h"
+
 
 // Ui
 #include "ui_IntrinsicEd.h"
@@ -25,8 +26,10 @@ IntrinsicEdManagerWindowPostEffect* IntrinsicEd::_managerWindowPostEffect =
 IntrinsicEd* IntrinsicEd::_mainWindow = nullptr;
 IntrinsicEdViewport* IntrinsicEd::_viewport = nullptr;
 
-_INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) IntrinsicEd::_categoryToIconMapping;
-_INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) IntrinsicEd::_componentToIconMapping;
+//_INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) IntrinsicEd::_categoryToIconMapping;
+//_INTR_HASH_MAP(_INTR_STRING, _INTR_STRING) IntrinsicEd::_componentToIconMapping;
+spp::sparse_hash_map<std::string, std::string> IntrinsicEd::_categoryToIconMapping;
+spp::sparse_hash_map<std::string, std::string> IntrinsicEd::_componentToIconMapping;
 
 SDL_Window* _sdlMainWindow = nullptr;
 SDL_Window* _sdlViewport = nullptr;
@@ -751,7 +754,7 @@ void spawnVegetation(const SpawnVegetationDesc& p_Desc)
     spawnedTreesNode = Components::NodeManager::createNode(spawnedTreesEntity);
     Components::NodeManager::attachChild(World::getRootNode(),
                                          spawnedTreesNode);
-    Components::NodeManager::updateTransforms({spawnedTreesNode});
+    Components::NodeManager::updateTransforms(spawnedTreesNode);
   }
   else
   {
@@ -870,7 +873,7 @@ void spawnVegetation(const SpawnVegetationDesc& p_Desc)
         Components::NodeManager::_orientation(nodeRef) = finalOrient;
         Components::NodeManager::_size(nodeRef) = finalSize;
 
-        Components::NodeManager::updateTransforms({nodeRef});
+        Components::NodeManager::updateTransforms(nodeRef);
       }
 
       ++spawnedTreeCount;

@@ -13,8 +13,9 @@
 // limitations under the License.
 
 // Precompiled header file
-#include "stdafx.h"
 #include "stdafx_editor.h"
+#include "stdafx.h"
+
 
 #include "IntrinsicEdManagerWindowBase.h"
 

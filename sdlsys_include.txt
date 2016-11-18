@@ -1,0 +1,3 @@
+
+IntrinsicCore/src/stdafx.h:#include "SDL_syswm.h"
+

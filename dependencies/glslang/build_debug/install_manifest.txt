@@ -1,0 +1,8 @@
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/lib/libglslang.a
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/lib/libOSDependent.a
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/lib/libOGLCompiler.a
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/bin/glslangValidator
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/bin/spirv-remap
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/lib/libSPIRV.a
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/lib/libSPVRemapper.a
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/glslang/build_debug/install/lib/libHLSL.a

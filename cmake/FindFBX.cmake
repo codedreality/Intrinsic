@@ -7,6 +7,7 @@
 FIND_PATH(FBX_INCLUDE_DIR fbxsdk.h
   PATH_SUFFIXES include
   PATHS
+        $ENV{FBX_HOME}
   ${CMAKE_SOURCE_DIR}/../Intrinsic_Dependencies/dependencies/fbx
   ~/Library/Frameworks
   /Library/Frameworks
@@ -19,9 +20,10 @@ FIND_PATH(FBX_INCLUDE_DIR fbxsdk.h
 )
 
 FIND_LIBRARY(FBX_LIBRARY_DEBUG 
-  NAMES libfbxsdkd fbxsdkd
+  NAMES libfbxsdkd fbxsdkd libfbxsdk fbxsdk
   PATH_SUFFIXES lib64 lib
   PATHS
+		${FBX_INCLUDE_DIR}/../lib/gcc4/x64/debug
   ${CMAKE_SOURCE_DIR}/../Intrinsic_Dependencies/dependencies/fbx
   ~/Library/Frameworks
   /Library/Frameworks
@@ -37,6 +39,7 @@ FIND_LIBRARY(FBX_LIBRARY_RELEASE
   NAMES libfbxsdk fbxsdk
   PATH_SUFFIXES lib64 lib
   PATHS
+		${FBX_INCLUDE_DIR}/../lib/gcc4/x64/release
   ${CMAKE_SOURCE_DIR}/../Intrinsic_Dependencies/dependencies/fbx
   ~/Library/Frameworks
   /Library/Frameworks

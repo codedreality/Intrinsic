@@ -20,6 +20,8 @@
 #include "windows.h"
 #endif // _WIN32
 
+#include "fbxsdk.h"
+
 // Tinydir
 #include "tinydir/tinydir.h"
 

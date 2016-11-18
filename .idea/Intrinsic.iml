@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicAssetManagement_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicAssetManagement_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicCore_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicCore_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicEd_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicEd_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicRendererVulkan_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicRendererVulkan_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/Intrinsic_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/Intrinsic_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicAssetManagement_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicAssetManagement_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicCore_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicCore_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicEd_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicEd_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicRendererVulkan_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicRendererVulkan_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/Intrinsic_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/Intrinsic_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicAssetManagement_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicAssetManagement_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicCore_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicCore_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicEd_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicEd_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicRendererVulkan_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicRendererVulkan_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/Intrinsic_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/Intrinsic_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicAssetManagement_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicAssetManagement_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicCore_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicCore_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicEd_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicEd_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicRendererVulkan_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicRendererVulkan_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/Intrinsic_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/Intrinsic_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesVertexLayout.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderStates.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassLensFlare.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanSamplers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassPreCombine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassSky.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassPerPixelPicking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassGBuffer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesImage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanMaterialBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesGpuProgram.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanMaterialBuffer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassVolumetricLighting.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesVertexLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassFoliage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassVolumetricLighting.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesPipelineLayout.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassPreCombine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanUniformManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanSamplers.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesRenderPass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanEnumsStructs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesBuffer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassLighting.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassDebug.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassShadow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassBloom.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanUniformManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/stdafx_vulkan.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesDrawCall.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesFramebuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassDebug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesMaterial.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanPrerequisites.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderStates.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderProcess.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassPerPixelPicking.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/stdafx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesMaterial.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassPostCombine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassSky.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesPipelineLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassBloom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesComputeCall.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesPipeline.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassLensFlare.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassGBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesComputeCall.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesFramebuffer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesGpuProgram.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassFoliage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesRenderPass.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderProcess.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassPostCombine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesPipeline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassShadow.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassGBufferTransparents.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassLighting.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanResourcesDrawCall.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanRenderPassGBufferTransparents.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FindLuaJIT.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FindSDL2.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FindPhysX.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FindQt5.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FindVulkan.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FindGLSLang.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/FindFBX.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec4.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorRotation.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowScript.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMaterial.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowGpuProgram.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec3.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorString.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNodeView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNodeViewTreeWidget.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorEnum.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowAsset.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/stdafx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEd.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorFloat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorFloat.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyView.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNotificationBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowPostEffect.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNotificationBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdViewport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowAsset.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowPostEffect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNodeViewTreeWidget.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNotificationSimple.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowScript.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorVec4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowGpuProgram.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorString.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowImage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/stdafx_editor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorRotation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMaterial.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdPropertyEditorEnum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdNotificationSimple.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdViewport.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMesh.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/src/IntrinsicEdManagerWindowMesh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/IntrinsicEd.rc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicEd/IntrinsicEd.qrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/stdafx_assets.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/stdafx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementHelperFbx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTimingHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreSimd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreMath.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesEventListener.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreLockFreeFixedBlockAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTriangleOptimizer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCorePhysicsSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreDod.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreName.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreThreadingWin32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/tlsf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreWorld.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsCamera.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesPostEffect.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/tlsf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCorePhysxHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCorePhysicsSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsRigidBody.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTimingHelper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreLogManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsMesh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTlsfAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesFrustum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreGameStatesManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesMesh.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesMesh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreApplication.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCorePrerequisites.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreEntity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsCameraController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsNode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreLinearOffsetAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreGameStatesManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsCharacterController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreThreadingUnix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreSystemEventProviderSDL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesFrustum.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTaskManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsRigidBody.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsPlayer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreSettingsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesScript.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsPostEffectVolume.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreDodComponents.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreGameStatesEditing.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsCameraController.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreApplication.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsScript.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreInputSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreInputSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreGameStatesEditing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreLogManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTriangleOptimizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsMesh.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesPostEffect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/stdafx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesEventListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreSystemEventProviderSDL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreLockFreeStack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreJsonHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTlsfAllocator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreStlAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreEntity.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreTaskManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsCamera.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreGameStatesMain.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsCharacterController.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreWorld.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreResourcesScript.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreSettingsManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsScript.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreAlgorithm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/stdafx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreGameStatesMain.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreDodResources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsPlayer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreComponentsPostEffectVolume.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IntrinsicCore/src/IntrinsicCoreAlgorithm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/enkits/TaskScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/enkits/TaskScheduler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/spirvcross/spirv_glsl.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/spirvcross/spirv_cross.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/spirvcross/spirv_glsl.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/spirvcross/spirv_cross.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Intrinsic/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Intrinsic/Intrinsic.rc" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/6/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel" />
+          <root url="file://$MODULE_DIR$/../../sdk/VulkanSDK/1.0.30.0/x86_64/include" />
+          <root url="file://$MODULE_DIR$/../../sdk/fbx/20151/include" />
+          <root url="file://$MODULE_DIR$/../../sdk/PhysX-3.3/PhysXSDK/Include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/6/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel" />
+          <root url="file://$MODULE_DIR$/../../sdk/VulkanSDK/1.0.30.0/x86_64/include" />
+          <root url="file://$MODULE_DIR$/../../sdk/fbx/20151/include" />
+          <root url="file://$MODULE_DIR$/../../sdk/PhysX-3.3/PhysXSDK/Include" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicCore_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicEd_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicAssetManagement_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/IntrinsicRendererVulkan_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Release/Intrinsic_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicCore_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicEd_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicAssetManagement_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/Intrinsic_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/Debug/IntrinsicRendererVulkan_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicCore_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicEd_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicAssetManagement_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/Intrinsic_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/RelWithDebInfo/IntrinsicRendererVulkan_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicCore_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/CMakeFiles/IntrinsicEd.dir/qrc_IntrinsicEd.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicEd_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicAssetManagement_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/IntrinsicRendererVulkan_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/Intrinsic-19a34b6f/19a34b6f/MinSizeRel/Intrinsic_automoc.cpp" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>

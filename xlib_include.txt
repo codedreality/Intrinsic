@@ -1,0 +1,2 @@
+dependencies/sdl/include/SDL_syswm.h:#include <X11/Xlib.h>
+dependencies/sdl/include/SDL_egl.h:#include <X11/Xlib.h>

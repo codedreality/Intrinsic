@@ -1,0 +1,458 @@
+[  1%] Automatic moc, uic and rcc for target IntrinsicAssetManagement
+[  1%] Built target IntrinsicAssetManagement_automoc
+Scanning dependencies of target IntrinsicAssetManagement
+[  2%] Building CXX object CMakeFiles/IntrinsicAssetManagement.dir/IntrinsicAssetManagement/src/stdafx.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx.cpp:15:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+[  3%] Building CXX object CMakeFiles/IntrinsicAssetManagement.dir/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterFbx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+[  4%] Building CXX object CMakeFiles/IntrinsicAssetManagement.dir/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+/home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp: In function ‘void Intrinsic::AssetManagement::compressTexture(const std::__cxx11::basic_string<char, std::char_traits<char>, Intrinsic::Core::StlAllocator<char> >&)’:
+/home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementImporterTexture.cpp:40:27: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+   std::system(cmd.c_str());
+                           ^
+[  5%] Building CXX object CMakeFiles/IntrinsicAssetManagement.dir/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/stdafx_assets.h:25,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicAssetManagement/src/IntrinsicAssetManagementResourcesAsset.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+[  5%] Linking CXX static library libIntrinsicAssetManagement.a
+[  6%] Built target IntrinsicAssetManagement
+[  7%] Automatic moc, uic and rcc for target IntrinsicRendererVulkan
+[  7%] Built target IntrinsicRendererVulkan_automoc
+Scanning dependencies of target IntrinsicRendererVulkan
+[  8%] Building CXX object CMakeFiles/IntrinsicRendererVulkan.dir/IntrinsicRendererVulkan/src/stdafx.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx.cpp:17:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+[  9%] Building CXX object CMakeFiles/IntrinsicRendererVulkan.dir/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDebugging.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+[ 10%] Building CXX object CMakeFiles/IntrinsicRendererVulkan.dir/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanDrawCallDispatcher.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+[ 11%] Building CXX object CMakeFiles/IntrinsicRendererVulkan.dir/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp.o
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_open(tinydir_dir*, const char*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:10: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+          ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:297:47: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  error = readdir_r(dir->_d, dir->_ep, &dir->_e);
+                                               ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h: In function ‘int tinydir_next(tinydir_dir*)’:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:6: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+      ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:433:43: warning: ‘int readdir_r(DIR*, dirent*, dirent**)’ is deprecated [-Wdeprecated-declarations]
+  if (readdir_r(dir->_d, dir->_ep, &dir->_e) != 0)
+                                           ^
+In file included from /home/abehr/Programming/3rdparty/Intrinsic/dependencies/tinydir/tinydir.h:54:0,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicCore/src/stdafx.h:24,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/stdafx_vulkan.h:35,
+                 from /home/abehr/Programming/3rdparty/Intrinsic/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp:16:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+CMakeFiles/IntrinsicRendererVulkan.dir/build.make:134: recipe for target 'CMakeFiles/IntrinsicRendererVulkan.dir/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp.o' failed
+make[2]: *** [CMakeFiles/IntrinsicRendererVulkan.dir/IntrinsicRendererVulkan/src/IntrinsicRendererVulkanGpuMemoryManager.cpp.o] Interrupt
+CMakeFiles/Makefile2:221: recipe for target 'CMakeFiles/IntrinsicRendererVulkan.dir/all' failed
+make[1]: *** [CMakeFiles/IntrinsicRendererVulkan.dir/all] Interrupt
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Interrupt
